@@ -175,6 +175,15 @@ public class CalculatorTestIT {
         System.out.println(result);
     }
 
-    
+    @Test
+    public void shouldDivide2Operator() {
+
+        //GIVEN
+        //WHEN
+        double result = expertCalculator.divide(42, 22);
+        //THEN
+        System.out.println(result);
+    }
+
 
 }

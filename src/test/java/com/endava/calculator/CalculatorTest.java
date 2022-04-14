@@ -174,7 +174,95 @@ public class CalculatorTest {
         //THEN
         System.out.println(result);
     }
+    @Test
+    public void shouldDivide2Operator() {
 
-    
+        //GIVEN
+        //WHEN
+        double result = expertCalculator.divide(42, 22);
+        //THEN
+        System.out.println(result);
+    }
+    @Test
+    public void shouldMultiply2Operands() {
 
+        //GIVEN
+        //WHEN
+        long result = expertCalculator.multiply(18, 2, 0);
+        //THEN
+        System.out.println(result);
+    }
+    @Test
+    public void shouldMultiplyWith0Operand() {
+
+        //GIVEN
+        //WHEN
+        long result = expertCalculator.multiply(18, 0, 0);
+        //THEN
+        System.out.println(result);
+    }
+    @Test
+    public void shouldMultiplyMoreThan2Operands() {
+
+        //GIVEN
+        //WHEN
+        long result = basicCalculator.multiply(18, 0, 4);
+        //THEN
+        System.out.println(result);
+    }
+    @Test
+    public void shouldPowPositiveOperand() {
+
+        //GIVEN
+        //WHEN
+        double result = expertCalculator.pow(5, 5);
+        //THEN
+        System.out.println(result);
+    }
+    @Test
+    public void shouldPowNegativeOperand() {
+
+        //GIVEN
+        //WHEN
+        double result = expertCalculator.pow(-5, -4);
+        //THEN
+        System.out.println(result);
+    }
+    @Test
+    public void shouldPowPosAndNegOperand() {
+
+        //GIVEN
+        //WHEN
+        double result = expertCalculator.pow(2, -4);
+        //THEN
+        System.out.println(result);
+    }
+    @Test
+    public void shouldFactPositiveOperand() {
+
+        //GIVEN
+        //WHEN
+        double result = expertCalculator.fact(5);
+        //THEN
+        System.out.println(result);
+    }
+
+    @Test
+    public void shouldFactNegativeOperand() {
+
+        //GIVEN
+        //WHEN
+        double result = expertCalculator.fact(-8);
+        //THEN
+        System.out.println(result);
+    }
+    @Test
+    public void shouldFactDoubleOperand() {
+
+        //GIVEN
+        //WHEN
+        double result = expertCalculator.fact(8.7);
+        //THEN
+        System.out.println(result);
+    }
 }

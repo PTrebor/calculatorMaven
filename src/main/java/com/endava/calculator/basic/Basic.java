@@ -67,7 +67,7 @@ public class Basic implements BasicOperations{
     }
 
     @Override
-    public long multiply(int a, int b) {
+    public long multiply(int a, int b, int c) {
         return ((long) a) * b;
     }
 

@@ -9,7 +9,7 @@ public interface BasicOperations {
     abstract long subtract (long... no);
     abstract double subtract (double... no);
 
-    public abstract long multiply(int a, int b);    //de facut multiple variables cu "..."
+    public abstract long multiply(int a, int b, int c);    //de facut multiple variables cu "..."
     public abstract long multiply(long a, long b);  //de facut multiple variables cu "..."
     public abstract double multiply(double a, double b);    //de facut multiple variables cu "..."
 

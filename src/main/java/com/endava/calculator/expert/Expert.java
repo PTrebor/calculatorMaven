@@ -34,7 +34,7 @@ public class Expert extends Basic implements ExpertOperations {
     }
 
     @Override
-    public long fact(int n) {
+    public long fact(double n) {
         long result = 1;
 //        5! = 1*2*3*4*5
 //        n! = 1*2*...*n

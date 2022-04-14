@@ -13,7 +13,7 @@ public class TestCalculator {
         System.out.println("Basic Calculator");
         System.out.println("Add: " + b.add(2, 3, 4, 9));
         System.out.println("Subtract: " + b.subtract(2, -3));
-        System.out.println("Multiply: " + b.multiply(2, 6));
+        System.out.println("Multiply: " + b.multiply(2, 6, 0));
         System.out.println("Divide: " + b.divide(10, 3));
         System.out.println("Divide by 0: " + b.divide(5, 0));
         System.out.println("Multiply: " + b.multiply(3.5, 2.3));
